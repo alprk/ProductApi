@@ -3,24 +3,24 @@
 Prerequisites : docker and docker-compose for this demo
 
 ### Installation
-####1. Install docker and docker-compose
+#### 1. Install docker and docker-compose
 - If theses programms are already installed, you can go to the next step !
 install docker for ubuntu : https://docs.docker.com/install/linux/docker-ce/ubuntu/
 install docker-compose : https://docs.docker.com/compose/install/
 
-####2. Download the repository zip
+#### 2. Download the repository zip
 
-####3. Unzip the folder to the directory of your choice
+#### 3. Unzip the folder to the directory of your choice
 
 `unzip ProductApi-master.zip ProductApi-master/`
-####4. Go to this directory
+#### 4. Go to this directory
 `cd ProductApi-master/`
-####5. Build & up docker-compose
+#### 5. Build & up docker-compose
 `sudo docker-compose build`
 
 `sudo docker-compose up`
 
-####6. Create your public & private key
+#### 6. Create your public & private key
 
     sudo docker-compose exec php sh -c '
     set -e
@@ -35,13 +35,13 @@ install docker-compose : https://docs.docker.com/compose/install/
 This takes care of using the correct passphrase to encrypt the private key, and setting the correct permissions on the keys allowing the web server to read them.
     
 
-####7. Create the database
+#### 7. Create the database
 
     sudo docker-compose exec php bin/console doctrine:database:drop --force
 	sudo docker-compose exec php bin/console doctrine:database:create
 	sudo docker-compose exec php bin/console d:s:u --force
 
-####7. Load the Fixtures
+#### 7. Load the Fixtures
 
 	sudo docker-compose exec php bin/console d:f:l
 
@@ -53,7 +53,7 @@ You can have a preview of what you can do with this API.
 But you are not authenticated with your JWT so you cannot see the data yet.
 => 401 : Not JWT was found
 
-####1. Obtain the token
+#### 1. Obtain the token
 
 to do this, you can use the linux CLI or the Postman software which i recommend,
 I will explain the linux CLI method here :
@@ -70,7 +70,7 @@ You will received a JsonResponse like that :
 
 
 
-####2. Use the API !
+#### 2. Use the API !
 
 Go to https://localhost/8443/docs
 
