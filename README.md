@@ -88,7 +88,8 @@ You will received a JsonResponse like that :
 Go to https://localhost:8443/docs
 
 Click on the green "Authorize" button
-Insert : Bearer token_received
+Insert :
+`Bearer <token_received>`
 
 The ressources are unlocked for the USER
 If you want to post, put, patch or delete something you will needs a JWT for thoses credentials:
