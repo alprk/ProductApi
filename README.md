@@ -20,7 +20,11 @@ install docker-compose : https://docs.docker.com/compose/install/
 #### 5. Build & up docker-compose
 `sudo docker-compose build`
 
+wait until the command finish
+
 `sudo docker-compose up`
+
+wait until the console displays PING from php_1 after admin_1 Compiled successfully
 
 #### 6. Create your public & private key
 
