@@ -79,6 +79,8 @@ launch  :
 
 You will received a JsonResponse like that :
 
+{"token":"eyJ0eXAiOiJKV...O_6SE0_fp2ZXVdU8u_BFA"}
+
 
 
 #### 2. Use the API !
