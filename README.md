@@ -55,6 +55,14 @@ This takes care of using the correct passphrase to encrypt the private key, and 
 
 say yes, purge the database
 
+and Here are the Fixtures which initialize the database :
+
+
+	App\DataFixtures\ProductApiFixtures
+	App\DataFixtures\UserApiFixtures
+	
+
+
 ### Usage
 
 Now your API is available at : https://localhost:8443/docs
