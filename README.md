@@ -97,3 +97,4 @@ email : admin@test.com
 password : admin
 
 Ps: You can also use PostMan software for all your calls to the API.
+Ps2: The token is valid for one hour, after this delay you need to ask a new one.
