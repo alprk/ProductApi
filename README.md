@@ -85,7 +85,7 @@ You will received a JsonResponse like that :
 
 #### 2. Use the API !
 
-Go to https://localhost/8443/docs
+Go to https://localhost:8443/docs
 
 Click on the green "Authorize" button
 Insert : Bearer token_received
