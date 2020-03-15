@@ -90,5 +90,10 @@ Go to https://localhost:8443/docs
 Click on the green "Authorize" button
 Insert : Bearer token_received
 
-The ressources are unlocked.
-    
+The ressources are unlocked for the USER
+If you want to post, put, patch or delete something you will needs a JWT for thoses credentials:
+
+email : admin@test.com
+password : admin
+
+Ps: You can also use PostMan software for all your calls to the API.
