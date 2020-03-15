@@ -79,7 +79,9 @@ launch  :
 	
 -  insecure argument is to bypass the self signed certificate restriction
 
-- This is the credential of a classic user
+- We pass a Json header with our credentials in the POST request `{"email":"user@test.com","password":"user"}`
+
+- Notice that the route to receive the token is https://localhost:8443/authentication_token
 
 You will received a JsonResponse like that :
 
