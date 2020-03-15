@@ -77,11 +77,11 @@ launch  :
 
 	curl --insecure -X POST -H "Content-Type: application/json" https://localhost:8443/authentication_token -d '{"email":"user@test.com","password":"user"}'
 	
--  insecure argument is to bypass the self signed certificate restriction
+- Insecure argument is to bypass the self signed certificate restriction.
 
-- We pass a Json header with our credentials in the POST request `{"email":"user@test.com","password":"user"}`
+- We pass a Json header with our credentials `{"email":"user@test.com","password":"user"}` in the POST request.
 
-- Notice that the route to receive the token is https://localhost:8443/authentication_token
+- Notice that the route to obtain the token is https://localhost:8443/authentication_token
 
 You will received a JsonResponse like that :
 
