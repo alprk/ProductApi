@@ -55,7 +55,7 @@ say yes, purge the database
 
 ### Usage
 
-Now your API is available at : https://localhost/8443/docs
+Now your API is available at : https://localhost:8443/docs
 You can have a preview of what you can do with this API.
 But you are not authenticated with your JWT so you cannot see the data yet.
 
