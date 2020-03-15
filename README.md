@@ -91,8 +91,8 @@ Click on the green "Authorize" button
 Insert :
 `Bearer <token_received>`
 
-The ressources are unlocked for the USER
-If you want to post, put, patch or delete something you will needs a JWT for thoses credentials:
+The ressources are unlocked for a classic user.
+If you want to post, put, patch or delete something you will need an admin JWT, you can obtain one with thoses credentials  :
 
 email : admin@test.com
 
