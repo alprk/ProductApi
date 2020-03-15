@@ -104,8 +104,8 @@ You will received a JsonResponse like that :
 
 Go to https://localhost:8443/docs
 
-Click on the green "Authorize" button
-Insert :
+Click on the green "Authorize" button and Insert :
+
 `Bearer <token_received>`
 
 The ressources are unlocked for a classic user.
