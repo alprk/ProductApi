@@ -59,6 +59,9 @@ say yes, purge the database
 
 Now your API is available at : https://localhost:8443/docs
 
+Maybe you need to add an exception on your webbrowser to acces this webpage.
+That is because the webserver use a self-signed certificate.
+
 You can have a preview of what you can do with this API.
 
 But you are not authenticated with your JWT so you cannot see the data yet.
