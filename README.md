@@ -51,6 +51,7 @@ This takes care of using the correct passphrase to encrypt the private key, and 
 
 	sudo docker-compose exec php bin/console d:f:l
 
+say yes, purge the database
 
 ### Usage
 
