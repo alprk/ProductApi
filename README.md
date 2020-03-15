@@ -28,6 +28,8 @@ wait until the console displays PING from php_1 after admin_1 Compiled successfu
 
 #### 6. Create your public & private key
 
+Open a new terminal and go to your directory : `cd ProductApi-master/`
+
     sudo docker-compose exec php sh -c '
     set -e
     apk add openssl
