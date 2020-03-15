@@ -14,7 +14,7 @@ install docker-compose : https://docs.docker.com/compose/install/
 
 #### 3. Unzip the folder to the directory of your choice
 
-`unzip ProductApi-master.zip ProductApi-master/`
+`unzip ProductApi-master.zip`
 #### 4. Go to this directory
 `cd ProductApi-master/`
 #### 5. Build & up docker-compose
